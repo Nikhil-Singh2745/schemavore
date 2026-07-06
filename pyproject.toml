@@ -1,0 +1,15 @@
+[build-system]
+requires = ["hatchling>=1.27"]
+build-backend = "hatchling.build"
+
+[project]
+name = "schemavore"
+version = "0.0.0"
+description = "An evidence-backed adaptive coding apprentice"
+requires-python = ">=3.12"
+license = { text = "Apache-2.0" }
+authors = [{ name = "Nikhil Singh" }]
+dependencies = []
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/schemavore"]
